@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 70px;
+  width: 80%;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.header-img {
+  background-image: url(img/logo.svg);
+  background-size: 150px 50px;
+  height: 50px;
+  width: 150px;
+}
+
+nav {
+  height: 40px;
+  background-color: #333;
+}
+
+ul {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  line-height: 40px;
+}
+
+li {
+  list-style: none;
+  margin-right: 50px;
+  color: #efefef;
+  font-size: 14px;
+}
+
+.pickup-container {
+  display: flex;
+  padding: 20px 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#center {
+  margin: 0 20px;
+}
+
+.read-more {
+  border-bottom: solid 1px #333;
+  margin: 0 auto;
+  display: table;
+  font-size: small;
+  margin-bottom: 50px;
+}
+
+.pickup-img1 {
+  background-image: url(img/pickup1.jpg);
+  height: 200px;
+  max-width: 100%;
+}
+
+.pickup-img2 {
+  background-image: url(img/pickup2.jpg);
+  height: 200px;
+  max-width: 100%;
+}
+
+.pickup-img3 {
+  background-image: url(img/pickup3.jpg);
+  height: 200px;
+  max-width: 100%;
+}
+
+.pick-up > p {
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.main-container {
+  display: flex;
+  width: 80%;
+  margin: 0px auto 50px;
+}
+
+.blog-container {
+  width: 85%;
+  margin-right: 50px;
+}
+
+.main1 {
+  background-image: url(img/main1.jpg);
+  background-position: center;
+  background-size: contain;
+  height: 500px;
+}
+
+.main2 {
+  background-image: url(img/main2.jpg);
+  background-position: center;
+  background-size: contain;
+  height: 500px;
+}
+
+.main3 {
+  background-image: url(img/main3.jpg);
+  background-position: center;
+  background-size: contain;
+  height: 500px;
+}
+
+.date-category {
+  display: flex;
+  font-size: small;
+}
+
+.date-category :first-child {
+  margin-right: 20px;
+}
+
+p {
+  margin: 15px 0;
+}
+
+.side-ber {
+  width: 40%;
+}
+
+.author-img {
+  background-image: url(img/main4.jpg);
+  background-size: 100px 100px;
+  background-position: center;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.author-container > h3,
+.ranking-container > h3 {
+  display: table;
+  margin: 20px auto;
+}
+
+.ranking-container {
+  margin: 50px auto;
+}
+
+.ranking-img1 {
+  background-image: url(img/ranking1.jpg);
+  background-position: center;
+  background-size: contain;
+  height: 200px;
+}
+
+.ranking-img2 {
+  background-image: url(img/ranking2.jpg);
+  background-position: center;
+  background-size: contain;
+  height: 200px;
+}
+
+.ranking-img3 {
+  background-image: url(img/ranking3.jpg);
+  background-position: center;
+  background-size: contain;
+  height: 200px;
+}
+
+.ranking-box-center {
+  margin: 30px 0;
+}
+
+.archive-container > h3,
+.archive-container > div {
+  padding: 20px 0;
+  border-bottom: #333 solid 1px;
+}
+
+.archive-container > h3 {
+  text-align: center;
+}
+
+
+
+footer {
+  background-color: #f7f7f7;
+  padding: 50px 0 20px;
+}
+
+.footer-container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about-container {
+  width: 30%;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.menu {
+  width: 30%;
+  margin: 0 5%;
+}
+
+.menu > h3,
+.menu > div {
+  padding: 10px 0;
+  border-bottom: #333 solid 1px;
+}
+
+.twitter {
+  width: 30%;
+}
+
+.timeline {
+  height: 200px;
+}
+
+.copy-write {
+  display: table;
+  margin: 50px auto 0;
+}
+
+#menu,
+.about,
+.twitter {
+  padding: 0 0 30px;
+}
+
+.about-container > p {
+  margin-top: 0;
+}
