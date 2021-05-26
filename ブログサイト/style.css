@@ -5,10 +5,17 @@
 }
 
 header {
-  height: 70px;
+  position: fixed;
+  height: 120px;
+  width: 100%;
+}
+
+.header-container {
   width: 80%;
-  padding: 10px 0;
   margin: 0 auto;
+  height: 50px;
+  padding: 0 auto;
+  background-color: white;
 }
 
 .header-img {
@@ -19,6 +26,7 @@ header {
 }
 
 nav {
+  top: 70px;
   height: 40px;
   background-color: #333;
 }
@@ -39,7 +47,7 @@ li {
 
 .pickup-container {
   display: flex;
-  padding: 20px 0;
+  padding: 130px 0 20px;
   width: 80%;
   margin: 0 auto;
 }
@@ -183,8 +191,6 @@ p {
   text-align: center;
 }
 
-
-
 footer {
   background-color: #f7f7f7;
   padding: 50px 0 20px;
@@ -218,10 +224,6 @@ a {
 
 .twitter {
   width: 30%;
-}
-
-.timeline {
-  height: 200px;
 }
 
 .copy-write {
